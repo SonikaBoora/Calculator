@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" placeholder="0" class="displayField" id="displayField" readonly>
+
+        </div>
+        <div class="buttons">
+            <button id="buttonc" onclick="displayClear();">C</button>
+            <button id="button1" onclick="display('%');">%</button>
+            <button id="button1" onclick="display('.');">.</button>
+            <button class="operator" onclick="display('*');">x</button>
+            <button id="button1" onclick="display('7');">7</button>
+            <button id="button1" onclick="display('8');">8</button>
+            <button id="button1" onclick="display('9');">9</button>
+            <button class="operator" onclick="display('/');">/</button>
+            <button id="button1" onclick="display('4');">4</button>
+            <button id="button1" onclick="display('5');">5</button>
+            <button id="button1" onclick="display('6');">6</button>
+            <button class="operator" onclick="display('+');">+</button>
+            <button id="button1" onclick="display('1');">1</button>
+            <button id="button1" onclick="display('2');">2</button>
+            <button id="button1" onclick="display('3');">3</button>
+            <button class="operator" onclick="display('-');">-</button>
+            <button id="button1" onclick="display('0');">0</button>
+            <button class="operator" id="equalTo" onclick="displayResult();">=</button>
+
+
+        </div>
+    </div>
+    <script src="cal.js"></script>
+    
+</body>
+</html>
