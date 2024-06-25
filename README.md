@@ -1,1 +1,1 @@
-<h2>preview the calculator:- <a href="https://sonikaboora.github.io/calculator/">Calculator</a></h2>
+<h2>Preview the Calculator:- <a href="https://sonikaboora.github.io/calculator/">Calculator</a></h2>
